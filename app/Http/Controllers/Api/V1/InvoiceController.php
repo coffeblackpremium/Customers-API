@@ -15,7 +15,7 @@ class InvoiceController extends Controller
     {
         $filter = new InvoicesFilter();
         $queryItems = $filter->transform($request);
-
+        
         if(is_countable($queryItems) && count($queryItems) == 0)
         {
             return new InvoiceCollection(Invoice::paginate());

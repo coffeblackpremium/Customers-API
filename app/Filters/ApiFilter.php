@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 class ApiFilter
 {
     protected $safeParms = [];
-    
 
     protected $columnMap = [];
 
@@ -43,5 +42,6 @@ class ApiFilter
                 }
             }
         }
+        return $eloQuery;
     }
 }
