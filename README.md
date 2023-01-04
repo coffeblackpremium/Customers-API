@@ -4,4 +4,4 @@
 
 
 #### What is ?
-- This is my project in Laravel for create aleatory API! :)
+- This is my project in Laravel for create Customer API! :)
